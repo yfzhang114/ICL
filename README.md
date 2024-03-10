@@ -1,7 +1,7 @@
 # A Study on the Calibration of In-context Learning
 
 <p align="center" width="100%">
-<a target="_blank"><img src="images/teaser.png" alt="Calibration of In-context Learning" style="width: 75%; min-width: 200px; display: block; margin: auto;"></a>
+<a target="_blank"><img src="images/teaser.png" alt="Calibration of In-context Learning" style="width: 100%; min-width: 200px; display: block; margin: auto;"></a>
 </p>
 
 This is the official repo for [A Study on the Calibration of In-context Learning](https://arxiv.org/abs/2312.04021).
@@ -47,8 +47,6 @@ python run_classification.py \
 ```
 
 ### Run Scripts for Reasoning with Scratchpad Tasks
-The run scripts, e.g., `run_classification_cot.py`, contain the code for randomly sampling the examples to use in the prompt, calling the models, the necessary evaluation metrics, and more. If you are adding a new task format (one that is not classification, QA) then you will need to write your own run script. Inside the run script, you can set the parameters for the experiments using the command line arguments.
-
 ```
 model=meta-llama/Llama-2-30b-chat-hf
 python run_classification_cot.py \
@@ -61,8 +59,6 @@ python run_classification_cot.py \
 ```
 
 ### Run Scripts for Scaling-Binning Calibrator
-The run scripts, e.g., `run_classification_cot.py`, contain the code for randomly sampling the examples to use in the prompt, calling the models, the necessary evaluation metrics, and more. If you are adding a new task format (one that is not classification, QA) then you will need to write your own run script. Inside the run script, you can set the parameters for the experiments using the command line arguments.
-
 ```
 model=meta-llama/Llama-2-30b-chat-hf
 python run_classification_calibrate.py \
