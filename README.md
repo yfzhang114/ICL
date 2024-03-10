@@ -1,8 +1,16 @@
 # A Study on the Calibration of In-context Learning
 
-<p align="center" width="100%">
-<a target="_blank"><img src="images/teaser.png" alt="Calibration of In-context Learning" style="width: 100%; min-width: 200px; display: block; margin: auto;"></a>
-</p>
+<figure>
+  <p align="center" width="100%">
+    <a target="_blank"><img src="images/teaser.png" alt="Calibration of In-context Learning" style="width: 100%; min-width: 200px; display: block; margin: auto;"></a>
+  </p>
+  <figcaption style="text-align: center; font-style: italic; font-size: 14px;">
+    The accuracy-calibration trade-off of in-context learning. (a) ICL concerns taking task-specific examples as the prompt to adapt a frozen LLM to predict the answer.
+(b) Classification accuracy and expected calibration error of ICL. 
+As the number of ICL samples increases, the prediction accuracy improves (Left); at the same time, the calibration first worsens ($k<3$) and then becomes better (Right). 
+  </figcaption>
+</figure>
+
 
 This is the official repo for [A Study on the Calibration of In-context Learning](https://arxiv.org/abs/2312.04021).
 
